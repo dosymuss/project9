@@ -1,0 +1,46 @@
+.main{
+    width: 452px;
+height: 160px;
+border-radius: 8px;
+border: 1px;
+overflow: hidden;
+position: relative;
+padding: 24px 20px;
+margin-bottom: 15px;
+background-color: #1546;
+}
+.textDiv{
+display: flex;
+flex-direction: column;
+gap: 16px
+
+}
+
+.name{
+    font-family: Nunito;
+font-size: 22px;
+font-weight: 800;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+margin: 0;
+width: 249px;
+gap: 16px
+
+}
+
+.category{
+    font-family: Nunito;
+font-size: 14px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+margin: 0;
+}
+
+.image{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
